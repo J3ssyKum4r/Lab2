@@ -26,7 +26,7 @@ def find_min_max(float_list):
 
 def calc_median_temperature(float_list):
     print("calc_median_temperature")
-    
+    return calc_median_temperature
     # Make a copy and sort it in ascending order
     temp_list = float_list.copy()
     temp_list.sort()
